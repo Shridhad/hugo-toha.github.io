@@ -38,8 +38,18 @@
 
 .navbar-collapse.show,
 .navbar-collapse.collapsing {
-  background-color: transparent;
   padding-left: 1rem;
+}
+
+.final-navbar .navbar-collapse.show,
+.final-navbar .navbar-collapse.collapsing {
+  background-color: transparent;
+}
+
+.initial-navbar .navbar-collapse.show,
+.initial-navbar .navbar-collapse.collapsing {
+  background-image: linear-gradient(217deg, rgba(252, 92, 125, 1), transparent),
+  linear-gradient(127deg, rgba(127, 44, 243, 0.82), transparent);
 }
 
 /* --- initial state end ------ */
