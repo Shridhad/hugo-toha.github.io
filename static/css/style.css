@@ -12,13 +12,21 @@ body {
   --sh-color-text-secondary: #8392a5;
 
 
-  --sh-font-family: "Muli";
+  --sh-font-family: "Muli", "Helvetica Neue";
+  --sh-font-dosis: "Dosis", "Muli", "Helvetica Neue";
 }
 
 .section-about {
-  background: conic-gradient(from 0.79turn at 50% 30%, #ce7223ad, 119deg, rgba(127, 44, 243, 0.37), 296deg, #ce7223d4);
+  background: conic-gradient(from 0.79turn at 56% 40%, #a15aee85, 119deg, rgba(127, 44, 243, 0.37), 296deg, #fc6d8a7d);
 }
 
+.section-skills {
+  background-color: rgb(206 175 249) !important;
+}
+
+.text-muted {
+  color: var(--sh-color-text-secondary) !important;
+}
 /* ============= Device specific fixes ======= */
 
 /* Large screens such as TV */

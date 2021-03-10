@@ -90,6 +90,7 @@
   border-radius: 50%;
   background: #3c4858;
   font-size: 1rem;
+  font-family: var(--sh-font-dosis);
   color: #f9fafc;
   line-height: 135px;
   text-align: center;

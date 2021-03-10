@@ -12,11 +12,12 @@
 
 .experiences-section ul > li {
   margin-left: 0;
-  color: #3c4858;
+  color: var(--sh-color-text-dark);
 }
 
 .experiences-section .designation {
   font-weight: 600;
+  color: var(--sh-color-secondary);
 }
 
 .circle {

@@ -38,7 +38,7 @@
 
 .navbar-collapse.show,
 .navbar-collapse.collapsing {
-  background-color: #f9fafc;
+  background-color: transparent;
   padding-left: 1rem;
 }
 
