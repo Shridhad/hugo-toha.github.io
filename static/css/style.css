@@ -1,5 +1,24 @@
 /* This is empty CSS file intended to be overwritten by user's custom CSS file */
 
+body {
+  --sh-color-primary: rgba(127,44,243,1);
+  --sh-color-primary-hover: rgba(127,44,243,0.8);
+  --sh-color-primary-strong: #1c2d41;
+  --sh-color-secondary: rgba(252, 92, 125, 1);
+  --sh-color-secondary-hover: rgba(252, 92, 125, 0.8);
+  --sh-color-white: #f9fafc;
+  --sh-color-text-primary: #3c4858;
+  --sh-color-text-dark: #1c2d41;
+  --sh-color-text-secondary: #8392a5;
+
+
+  --sh-font-family: "Muli";
+}
+
+.section-about {
+  background: conic-gradient(from 0.79turn at 50% 30%, #ce7223ad, 119deg, rgba(127, 44, 243, 0.37), 296deg, #ce7223d4);
+}
+
 /* ============= Device specific fixes ======= */
 
 /* Large screens such as TV */

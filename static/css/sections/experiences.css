@@ -22,7 +22,7 @@
 .circle {
   padding: 13px 20px;
   border-radius: 50%;
-  background-color: #248aaa;
+  background: radial-gradient(ellipse at bottom, var(--sh-color-primary), var(--sh-color-secondary));
   color: #f9fafc;
   max-height: 50px;
   z-index: 2;
@@ -35,7 +35,7 @@
 .timeline .vertical-line::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #248aaa;
+  border-left: 3px solid var(--sh-color-primary);
   z-index: 1;
   height: 100%;
   left: 50%;
@@ -51,7 +51,7 @@
 }
 
 .timeline .horizontal-line hr {
-  border-top: 3px solid #248aaa;
+  border-top: 3px solid var(--sh-color-primary);
   margin: 0;
   top: 17px;
   position: relative;
@@ -63,7 +63,7 @@
 }
 
 .timeline .horizontal-line .corner {
-  border: 3px solid #248aaa;
+  border: 3px solid var(--sh-color-primary);
   width: 100%;
   position: relative;
   border-radius: 15px;

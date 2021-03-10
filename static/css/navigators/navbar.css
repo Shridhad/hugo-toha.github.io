@@ -47,8 +47,10 @@
 /* --- state after scroll start --- */
 
 .final-navbar {
-  background-color: #f9fafc;
-  color: #1c2d41;
+  background-image: linear-gradient(217deg, rgba(252, 92, 125, 1), transparent),
+        linear-gradient(127deg, rgba(127, 44, 243, 0.82), transparent);
+  background-color: var(--sh-color-white);
+  color: var(--sh-color-text-primary);
   transition: all 0.3s ease-out;
 }
 
@@ -61,14 +63,14 @@
   color: #1c2d41;
   font-weight: 500;
   transition: all 0.3s ease-out;
-  border-bottom: 2px solid#F9FAFC;
+  border-bottom: 2px solid transparent;
 }
 
 .final-navbar .navbar-nav .active,
 .final-navbar li a:hover {
-  color: #2098d1;
+  color: var(--sh-color-primary, #2098d1);
   transition: all 0.3s ease-out;
-  border-bottom: 2px solid #2098d1;
+  border-bottom: 2px solid var(--sh-color-primary-hover, #2098d1);
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -86,7 +88,7 @@
 
 .navbar-collapse.show .navbar-nav .active,
 .navbar-collapse.show .navbar-nav a:hover {
-  color: #2098d1;
+  color: var(--sh-color-primary-hover, #2098d1);
 }
 
 #top-navbar-divider {
@@ -138,7 +140,7 @@
 }
 
 .top-navbar .dropdown-menu a:hover {
-  color: #2098d1;
+  color: #e87716;
   transition: all 0.3s ease-out;
   border-bottom: none;
   background: rgb(2, 0, 36);
@@ -179,7 +181,7 @@
 
   .initial-navbar .navbar-nav .active,
   .initial-navbar li a:hover {
-    color: #2098d1;
+    color: #e87716;
     transition: all 0.3s ease-out;
   }
 

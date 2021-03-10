@@ -91,22 +91,7 @@
   <hr />
   <div class="container">
     <div class="row text-left">
-      <div class="col-md-4">
-        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
-          <img src="{{ $themeLogo }}">
-          Toha
-        </a>
-      </div>
-      <div class="col-md-4 text-center">{{ $copyrightNotice | markdownify }}</div>
-      <div class="col-md-4 text-right">
-        <a id="hugo" href="https://gohugo.io/">{{ i18n "hugoAttributionText" }}
-        <img
-          src="{{ $hugoLogo }}"
-          alt="Hugo Logo"
-          height="18"
-        />
-        </a>
-      </div>
+      <div class="col-md-12 text-center">{{ $copyrightNotice | markdownify }}</div>
     </div>
   </div>
 </footer>

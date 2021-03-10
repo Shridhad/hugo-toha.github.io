@@ -14,8 +14,8 @@ Yellow:  #FFC212
 */
 
 body {
-  background-color: #f9fafc;
-  font-family: "Muli";
+  background-color: var(--sh-color-white, #f9fafc);
+  font-family: var(--sh-font-family, "Muli");
 }
 
 h1,
@@ -23,11 +23,11 @@ h2,
 h3,
 h4,
 h5 {
-  color: #1c2d41;
+  color: var(--sh-color-primary-strong, #1c2d41);
 }
 
 strong {
-  color: #1c2d41 !important;
+  color: var(--sh-color-primary-strong, #1c2d41) !important;
 }
 
 p {
@@ -35,18 +35,18 @@ p {
 }
 
 a {
-  color: #248aaa;
+  color: var(--sh-color-primary, #248aaa);
 }
 
 a:hover {
-  color: #207089;
+  color: var(--sh-color-primary-hover, #207089);
 }
 
 .nav-button {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #8392a5;
+  color: var(--sh-color-text-primary, #8392a5);
 }
 
 .btn-dark {
@@ -64,31 +64,31 @@ a:hover {
 }
 
 .btn-outline-info {
-  color: #2098d1 !important;
-  border-color: #2098d1 !important;
+  color: #e87716 !important;
+  border-color: #e87716 !important;
 }
 
 .btn-outline-info:hover {
-  background-color: #2098d1 !important;
+  background-color: #e87716 !important;
   color: #e5e9f2 !important;
 }
 
 .btn-info {
-  background-color: #248aaa !important;
+  background-color: #e87716 !important;
   color: #e5e9f2 !important;
 }
 
 .btn-info:hover {
-  background-color: #2098d1 !important;
+  background-color: #e87716 !important;
   color: #e5e9f2 !important;
 }
 
 .btn-link{
-  color: #248aaa;
+  color: #e87716;
 }
 
 .btn-link:hover{
-  color: #207089;
+  color: #e87716;
 }
 
 .bg-white {
@@ -135,6 +135,11 @@ img.right {
   height: 24px;
 }
 
+.card-head img[alt~="HTML"],
+.card-head img[alt~="Java"] {
+  width: auto !important;
+}
+
 .card:hover,
 .card:focus {
   box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16);
@@ -171,17 +176,18 @@ img.right {
 /* --- FOOTER START --- */
 
 .footer {
-  color: #8392a5 !important;
-  background-color: #1c2d41;
+  color: var(--sh-color-text-dark) !important;
+  background: linear-gradient(217deg, rgba(127, 44, 243, 0.52), transparent),
+  linear-gradient(127deg, rgba(252, 92, 125, .52), transparent);
   position: relative;
   z-index: 9999;
 }
 
 .footer h5 {
-  color: #c0ccda;
+  color: var(--sh-color-text-dark);
 }
 .footer a {
-  color: #8392a5;
+  color: var(--sh-color-text-dark);
   transition: all 0.3s ease-out;
 }
 

@@ -24,8 +24,9 @@
       <p class="p-1 text-justify">
         {{ .summary | markdownify }}
       </p>
-      <div class="text-container ml-auto">
-        <ul class="social-link d-flex">
+      <div class="text-container ml-auto align-items-baseline">
+        <span class="social-link-label">Look me up on: </span>
+        <ul class="social-link d-inline-flex">
           {{ range .socialLinks }}
           <li>
             {{ if eq .name "Email" }}
