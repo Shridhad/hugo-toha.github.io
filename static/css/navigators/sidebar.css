@@ -24,6 +24,7 @@
 }
 
 .sidebar-tree {
+  padding-top: 20px;
   padding-left: 1rem;
   position: relative;
   width: -webkit-max-content;
@@ -77,12 +78,12 @@
 
 .tree li a.active {
   display: inline;
-  color: #2098d1;
+  color: var(--sh-color-primary);
 }
 
 .tree li a:hover {
   margin-left: 3px;
-  color: #2098d1;
+  color: var(--sh-color-primary-hover);
   transition: all 0.3s ease-out;
 }
 
